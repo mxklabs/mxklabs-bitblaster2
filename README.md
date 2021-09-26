@@ -1,6 +1,8 @@
 bitblaster
 ==============
 
+!!! This package is not production ready.
+
 [![Gitter][gitter-badge]][gitter-link]
 
 |      CI              | status |
@@ -13,18 +15,18 @@ bitblaster
 
 [gitter-badge]:            https://badges.gitter.im/pybind/Lobby.svg
 [gitter-link]:             https://gitter.im/pybind/Lobby
-[actions-badge]:           https://github.com/pybind/bitblaster/workflows/Tests/badge.svg
-[actions-conda-link]:      https://github.com/pybind/bitblaster/actions?query=workflow%3A%22Conda
-[actions-conda-badge]:     https://github.com/pybind/bitblaster/workflows/Conda/badge.svg
-[actions-pip-link]:        https://github.com/pybind/bitblaster/actions?query=workflow%3A%22Pip
-[actions-pip-badge]:       https://github.com/pybind/bitblaster/workflows/Pip/badge.svg
-[actions-wheels-link]:     https://github.com/pybind/bitblaster/actions?query=workflow%3AWheels
-[actions-wheels-badge]:    https://github.com/pybind/bitblaster/workflows/Wheels/badge.svg
-[travis-link]:             https://travis-ci.org/pybind/bitblaster
-[travis-badge]:            https://travis-ci.org/pybind/bitblaster.svg?branch=master&status=passed 
-[appveyor-link]:           https://ci.appveyor.com/project/wjakob/python-example
+[actions-badge]:           https://github.com/mxklabs/mxklabs-bitblaster2/workflows/Tests/badge.svg
+[actions-conda-link]:      https://github.com/mxklabs/mxklabs-bitblaster2/actions?query=workflow%3A%22Conda
+[actions-conda-badge]:     https://github.com/mxklabs/mxklabs-bitblaster2/workflows/Conda/badge.svg
+[actions-pip-link]:        https://github.com/mxklabs/mxklabs-bitblaster2/actions?query=workflow%3A%22Pip
+[actions-pip-badge]:       https://github.com/mxklabs/mxklabs-bitblaster2/workflows/Pip/badge.svg
+[actions-wheels-link]:     https://github.com/mxklabs/mxklabs-bitblaster2/actions?query=workflow%3AWheels
+[actions-wheels-badge]:    https://github.com/mxklabs/mxklabs-bitblaster2/workflows/Wheels/badge.svg
+[travis-link]:             https://travis-ci.org/mxklabs/mxklabs-bitblaster2
+[travis-badge]:            https://travis-ci.org/mxklabs/mxklabs-bitblaster2.svg?branch=master&status=passed 
+[appveyor-link]:           https://ci.appveyor.com/project/wjakob/bitblaster
 <!-- TODO: get a real badge link for appveyor -->
-[appveyor-badge]:          https://travis-ci.org/pybind/bitblaster.svg?branch=master&status=passed
+[appveyor-badge]:          https://travis-ci.org/mxklabs/mxklabs-bitblaster2.svg?branch=master&status=passed
 
 An example project built with [pybind11](https://github.com/pybind/pybind11).
 
