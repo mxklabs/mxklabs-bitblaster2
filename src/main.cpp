@@ -9,12 +9,12 @@ int add(int i, int j) {
 
 namespace py = pybind11;
 
-PYBIND11_MODULE(python_example, m) {
+PYBIND11_MODULE(bitblaster, m) {
     m.doc() = R"pbdoc(
         Pybind11 example plugin
         -----------------------
 
-        .. currentmodule:: python_example
+        .. currentmodule:: bitblaster
 
         .. autosummary::
            :toctree: _generate

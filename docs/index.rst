@@ -1,10 +1,10 @@
-python_example Documentation
-============================
+bitblaster Documentation
+========================
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
 
-   python_example
+   bitblaster
 

@@ -1,4 +1,4 @@
-python_example
+bitblaster
 ==============
 
 [![Gitter][gitter-badge]][gitter-link]
@@ -13,18 +13,18 @@ python_example
 
 [gitter-badge]:            https://badges.gitter.im/pybind/Lobby.svg
 [gitter-link]:             https://gitter.im/pybind/Lobby
-[actions-badge]:           https://github.com/pybind/python_example/workflows/Tests/badge.svg
-[actions-conda-link]:      https://github.com/pybind/python_example/actions?query=workflow%3A%22Conda
-[actions-conda-badge]:     https://github.com/pybind/python_example/workflows/Conda/badge.svg
-[actions-pip-link]:        https://github.com/pybind/python_example/actions?query=workflow%3A%22Pip
-[actions-pip-badge]:       https://github.com/pybind/python_example/workflows/Pip/badge.svg
-[actions-wheels-link]:     https://github.com/pybind/python_example/actions?query=workflow%3AWheels
-[actions-wheels-badge]:    https://github.com/pybind/python_example/workflows/Wheels/badge.svg
-[travis-link]:             https://travis-ci.org/pybind/python_example
-[travis-badge]:            https://travis-ci.org/pybind/python_example.svg?branch=master&status=passed 
+[actions-badge]:           https://github.com/pybind/bitblaster/workflows/Tests/badge.svg
+[actions-conda-link]:      https://github.com/pybind/bitblaster/actions?query=workflow%3A%22Conda
+[actions-conda-badge]:     https://github.com/pybind/bitblaster/workflows/Conda/badge.svg
+[actions-pip-link]:        https://github.com/pybind/bitblaster/actions?query=workflow%3A%22Pip
+[actions-pip-badge]:       https://github.com/pybind/bitblaster/workflows/Pip/badge.svg
+[actions-wheels-link]:     https://github.com/pybind/bitblaster/actions?query=workflow%3AWheels
+[actions-wheels-badge]:    https://github.com/pybind/bitblaster/workflows/Wheels/badge.svg
+[travis-link]:             https://travis-ci.org/pybind/bitblaster
+[travis-badge]:            https://travis-ci.org/pybind/bitblaster.svg?branch=master&status=passed 
 [appveyor-link]:           https://ci.appveyor.com/project/wjakob/python-example
 <!-- TODO: get a real badge link for appveyor -->
-[appveyor-badge]:          https://travis-ci.org/pybind/python_example.svg?branch=master&status=passed
+[appveyor-badge]:          https://travis-ci.org/pybind/bitblaster.svg?branch=master&status=passed
 
 An example project built with [pybind11](https://github.com/pybind/pybind11).
 
@@ -34,13 +34,13 @@ Installation
 **On Unix (Linux, OS X)**
 
  - clone this repository
- - `pip install ./python_example`
+ - `pip install ./bitblaster`
 
 **On Windows (Requires Visual Studio 2015)**
 
  - For Python 3.5+:
      - clone this repository
-     - `pip install ./python_example`
+     - `pip install ./bitblaster`
  - For Python 2.7:
 
    Pybind11 requires a C++11 compliant compiler (i.e. Visual Studio 2015 on
@@ -52,9 +52,9 @@ Installation
      - `"%VS140COMNTOOLS%\..\..\VC\vcvarsall.bat" x64`
      - `set DISTUTILS_USE_SDK=1`
      - `set MSSdk=1`
-     - `pip install ./python_example`
+     - `pip install ./bitblaster`
 
-   Note that this requires the user building `python_example` to have registry edition
+   Note that this requires the user building `bitblaster` to have registry edition
    rights on the machine, to be able to run the `vcvarsall.bat` script.
 
 CI Examples
@@ -83,7 +83,7 @@ the extension module to generate beautiful documentation in a variety formats.
 The following command generates HTML-based reference documentation; for other
 formats please refer to the Sphinx manual:
 
- - `cd python_example/docs`
+ - `cd bitblaster/docs`
  - `make html`
 
 License
@@ -97,8 +97,8 @@ Test call
 ---------
 
 ```python
-import python_example
-python_example.add(1, 2)
+import bitblaster
+bitblaster.add(1, 2)
 ```
 
 [`cibuildwheel`]:          https://cibuildwheel.readthedocs.io

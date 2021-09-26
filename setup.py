@@ -15,7 +15,7 @@ __version__ = "0.0.6"
 #
 # Note:
 #   Sort input source files if you glob sources to ensure bit-for-bit
-#   reproducible builds (https://github.com/pybind/python_example/pull/53)
+#   reproducible builds
 
 ext_modules = [
     Pybind11Extension("bitblaster",
@@ -30,7 +30,7 @@ setup(
     version=__version__,
     author="Mark Kattenbelt",
     author_email="mark@mxklabs.co.uk",
-    url="https://github.com/mxklabs/mxklabs-bitblaster",
+    url="https://github.com/mxklabs/mxklabs-bitblaster2",
     description="A test project using pybind11",
     long_description="",
     ext_modules=ext_modules,
